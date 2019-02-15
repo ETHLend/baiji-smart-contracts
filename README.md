@@ -31,3 +31,11 @@ LEND
 OMG
 0xa15e0911f60b04b027c1793de07e58c6e7365c2f
 
+&nbsp;
+## Request Kovan ETH for testing
+Follow the instructions on https://gitter.im/kovan-testnet/faucet
+
+&nbsp;
+## Request testnet BTC
+Follow the instructions on https://coinfaucet.eu/en/btc-testnet/
+
