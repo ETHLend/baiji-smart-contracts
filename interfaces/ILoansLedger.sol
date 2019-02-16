@@ -69,4 +69,21 @@ interface ILoansLedger {
             uint8 installments_count,
             int8 peggedIndex,
             uint64 startTimeoutTime);
+
+    /**
+    * @dev Gets the repaid amount that a lender has available to withdraw
+    * @param deposit - loan deposit address
+    * @param lender - lender address
+    */
+    function getWithdrawAmount(address deposit, address lender) external view  returns (uint128);
+
+    /**
+    * @dev Gets data related with the repayments of a loan
+    * @param deposit - loan deposit address
+    */
+    function getRepaymentData(address deposit) external view 
+        returns (
+            uint paybackReceived, 
+            uint8 installments_count, 
+            uint8 installment_paid);
 }
